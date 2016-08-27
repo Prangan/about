@@ -13,12 +13,20 @@ hamburger.onclick = function(){
   if (hamCount == 0){
     first.style.opacity = "0";
     second.style.opacity = "1";
-    menu.style.height = "290px";
+    if(typeof window.orientation !== 'undefined'){
+      menu.style.height = "290px";
+    } else {
+      menu.className = "menu";
+    }
     hamCount=1;
   } else if (hamCount == 1){
     first.style.opacity = "1";
     second.style.opacity = "0";
-    menu.style.height = "0px";
+    if(typeof window.orientation !== 'undefined'){
+      menu.style.height = "0px";
+    } else {
+      menu.className = "menu menuHidden";
+    }
     hamCount=0;
   }
 }
