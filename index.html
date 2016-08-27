@@ -9,7 +9,7 @@
   </head>
   <body>
     <nav>
-      <div class="elevatedContent">
+      <div class="elevatedContent" id="elevatedContent">
         <div class="logo" id="logo"></div>
         <div class="hamburger" id="hamburger">
           <div class="first" id="first">
@@ -24,27 +24,56 @@
         </div>
       </div>
       <ul class="menu menuHidden" id="menu">
-        <div class=" item item1" id="item1">
+        <div class="item item1" id="item1">
           <p><a href="#">Competition</a></p>
           <div class="underline" id="underline1"></div>
         </div>
-        <div class=" item item2" id="item2">
+        <div class="item item2" id="item2">
           <p><a href="#">About</a></p>
           <div class="underline" id="underline2"></div>
         </div>
-        <div class=" item item3" id="item3">
+        <div class="item item3" id="item3">
           <p><a href="#">Prizes</a></p>
           <div class="underline" id="underline3"></div>
         </div>
-        <div class=" item item4" id="item4">
+        <div class="item item4" id="item4">
           <p><a href="#">Jury</a></p>
           <div class="underline" id="underline4"></div>
         </div>
       </ul>
     </nav>
-    <h2 class="content">No content yet...</h2>
-    <p class="contentText">give me ideas as to what you want to have here</p>
-    <p id="browserCheck"></p>
+    <div class="clickCatcher" id="clickCatcher"></div>
+    <div class="firstSection" id="firstSection">
+      <div class="contentContainer" id="contentContainer">
+        <p class="entriesText"><span>Entries</span> for the</p>
+        <h2 class="BandE">Business and Entrepreneurship Competition</h2>
+        <p class="open">are now open!</p>
+        <br>
+        <p class="youHave">You have:</p>
+          <div class="timeContainer timeContainerHidden" id="timeContainer">
+            <div class="container daysContainer" id="daysContainer">
+              <p class="timeEntry" id="days"></p>
+              <p class="label" id="daysLabel">days</p>
+            </div>
+            <div class="container hoursContainer" id="hoursContainer">
+              <p class="timeEntry" id="hours"></p>
+              <p class="label" id="hoursLabel">hours</p>
+            </div>
+            <div class="container minContainer" id="minContainer">
+              <p class="timeEntry" id="min"></p>
+              <p class="label" id="minutesLabel">minutes</p>
+            </div>
+            <div class="container secContainer" id="secContainer">
+              <p class="timeEntry" id="seconds"></p>
+              <p class="label" id="secondsLabel">seconds</p>
+            </div>
+          </div>
+        <p class="results">To make sure you get your entry in!</p>
+        <a class="learnMore" id="learnMore">Learn More</a>
+      </div>
+      <div class="clockBg" id="clockBg"></div>
+    </div>
   </body>
   <script type="text/javascript" src="scripts.js"></script>
+  <script type="text/javascript" src="firstSection.js"></script>
 </html>
