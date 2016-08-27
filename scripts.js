@@ -6,27 +6,7 @@ var hamburger = document.getElementById('hamburger');
 var first = document.getElementById('first');
 var second = document.getElementById('second');
 var menu = document.getElementById('menu');
-var Xval = 0;
-var Yval = 0;
 
-function getCoords(e){
-  Xval = e.clientX;
-  Yval = e.clientY
-}
-
-if (windowWidth < 480){
-  navItems.forEach(function(item, index){
-    //console.log("This item is: "+item+" and the key is: "+index);
-    var item = document.getElementById(item);
-    //var itemUnderline = document.getElementById(underlines[index]);
-    item.onmousedown = function(){
-      item.style.backgroundColor = "#F5F5F5";
-    }
-    item.onmouseup = function(){
-      item.style.backgroundColor = "#FFFFFF";
-    }
-  });
-}
 
 var hamCount = 0;
 hamburger.onclick = function(){
