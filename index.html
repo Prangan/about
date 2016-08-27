@@ -3,12 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Be Something Sevenoaks</title>
-    <link rel="stylesheet" href="styles.css" charset="utf-8">
+    <link rel="stylesheet" href="styles.css" media="only screen and (min-device-width: 480px)" charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="mobileStyles.css" media="only screen and (max-device-width: 480px)" title="mobile layout" charset="utf-8">
   </head>
   <body>
     <nav>
-      <div class="logo" id="logo"></div>
+      <div class="elevatedContent">
+        <div class="logo" id="logo"></div>
+        <div class="hamburger" id="hamburger">
+          <div class="first" id="first">
+            <div class="line top"></div>
+            <div class="line middle"></div>
+            <div class="line bottom"></div>
+          </div>
+          <div class="second" id="second">
+            <div class="line topRotated"></div>
+            <div class="line bottomRotated"></div>
+          </div>
+        </div>
+      </div>
       <ul class="menu" id="menu">
         <div class=" item item1" id="item1">
           <p><a href="#">Competition</a></p>
