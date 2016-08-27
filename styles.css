@@ -61,3 +61,25 @@ nav ul{
   text-decoration: none;
   color: rgb(55,55,55);
 }
+
+.content {
+  font-family: "Lato", sans-serif;
+  color: rgb(55,55,55);
+  opacity: 0.6;
+  font-size: 4em;
+  font-weight: 200;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contentText{
+  position: absolute;
+  font-family: "Lato", sans-serif;
+  color: rgb(55,55,55);
+  opacity: 0.5;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
