@@ -202,35 +202,9 @@ nav ul div p a {
   margin: 0px;
   margin-top: 0px;
   margin-bottom: 1000px;
-  background: linear-gradient(69deg, #004c5c, #223a3f, #1d2240, #013642, #083038, #004453);
-  background-size: 1400% 1400%;
-
-  -webkit-animation: AnimationName 59s ease infinite;
-  -moz-animation: AnimationName 59s ease infinite;
-  -o-animation: AnimationName 59s ease infinite;
-  animation: AnimationName 59s ease infinite;
+  background: linear-gradient(69deg, #004c5c, #223a3f);
 }
 
-@-webkit-keyframes AnimationName {
-    0%{background-position:88% 0%}
-    50%{background-position:13% 100%}
-    100%{background-position:88% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:88% 0%}
-    50%{background-position:13% 100%}
-    100%{background-position:88% 0%}
-}
-@-o-keyframes AnimationName {
-    0%{background-position:88% 0%}
-    50%{background-position:13% 100%}
-    100%{background-position:88% 0%}
-}
-@keyframes AnimationName {
-    0%{background-position:88% 0%}
-    50%{background-position:13% 100%}
-    100%{background-position:88% 0%}
-}
 
 .contentContainer {
   position: absolute;
