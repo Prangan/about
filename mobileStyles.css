@@ -324,11 +324,12 @@ nav ul div p a {
   transform: translate(-50%, -50%);
   color: rgb(55,55,55);
   background-color: #0DB6E5;
-  padding: 0.4em 1.2em;
-  border-radius: 1em;
+  padding: 0.6em 1.5em;
+  border-radius: 2em;
   font-weight: 400;
   font-size: 1.2em;
   z-index: 10;
+  text-decoration: none;
 }
 
 .results{
