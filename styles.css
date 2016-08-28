@@ -479,7 +479,7 @@ nav ul{
 }
 
 .thirdSection{
-  background-color: #8a919f;
+  background-color: #E0E0E0;
   width: 100%;
   height: 200px;
   position: relative;
@@ -487,7 +487,7 @@ nav ul{
 
 .thirdSection h2 {
   font-family: "Lato", sans-serif;
-  color: #EEEEEE;
+  color: #757575;
   text-align: center;
   top: 2em;
   font-weight: 200;
@@ -551,7 +551,7 @@ nav ul{
   width: 50px;
   height: 50px;
   display: inline-block;
-  background-color: #D50F25;
+  background-color: #F44336;
 }
 
 .google i{
@@ -575,7 +575,7 @@ nav ul{
 
 .fourthSection{
   width:100%;
-  background-color: #0fa6bb;
+  background-color: #064e58;
   margin: 0;
 }
 
@@ -624,7 +624,7 @@ nav ul{
   font-family: "Lato", sans-serif;
   font-weight: 200;
   font-size: 1.5em;
-  color: rgb(55,55,55);
+  color: rgba(255,255,255,0.9);
   position: absolute;
   right: 30px;
 }
@@ -634,7 +634,7 @@ nav ul{
   bottom: 10px;
   font-family: "Lato", sans-serif;
   font-weight: 200;
-  color: rgb(55,55,55);
+  color: rgba(255,255,255,0.7);
   right: 30px;
 }
 
@@ -643,8 +643,8 @@ nav ul{
   height: 70px;
   border-radius: 50%;
   position: absolute;
-  top: 40%;
-  left: 30px;
+  top: 50%;
+  left: 40px;
   transform: translateY(-50%);
   background-image: url(assets/profile.jpeg);
   background-position: center;
@@ -652,6 +652,21 @@ nav ul{
   background-repeat: no-repeat;
 }
 
+.prangan{
+  background-image: url(assets/prangan.png);
+}
+
+.masha{
+  background-image: url(assets/masha.png);
+}
+
+.cedric{
+  background-image: url(assets/cedric.png);
+}
+
+.anna{
+  background-image: url(assets/anna.png);
+}
 
 .copyright{
   background-color: rgb(55,55,55);
