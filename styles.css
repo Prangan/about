@@ -592,6 +592,15 @@ nav ul{
   margin: 0 auto;
   width: 640px;
   padding-bottom: 2em;
+  opacity: 1;
+  transition: 400ms ease-in-out;
+  position: relative;
+  padding-top: 0;
+}
+
+.cardContainerHidden{
+  opacity: 0;
+  padding-top: 2em;
 }
 
 @media (max-width: 640px){

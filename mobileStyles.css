@@ -201,7 +201,6 @@ nav ul div p a {
   position: relative;
   margin: 0px;
   margin-top: 0px;
-  margin-bottom: 1000px;
   background: linear-gradient(69deg, #004c5c, #223a3f);
 }
 
@@ -348,4 +347,227 @@ nav ul div p a {
   width: 100%;
   height: 350px;
   z-index: 2;
+}
+
+.secondSection{
+  width: 100%;
+  background-color: #EEEEEE;
+  margin-top: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  padding-bottom: 3em;
+  height: 500px;
+}
+
+.secondSectionContent{
+  width: 80%;
+  margin: 0 auto;
+  height: 500px;
+  position: relative;
+}
+
+.secondSection h2{
+  text-align: center;
+  margin-top: 2em;
+  font-size: 2.5em;
+  font-weight: 200;
+  margin-bottom: 3em;
+}
+
+.sectionShowing{
+  position: absolute;
+  font-size: 1.8em;
+  text-align: center;
+  opacity: 1;
+  transition: 500ms ease-in-out;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(55,55,55,0.6)
+}
+
+.sectionFirst{
+  top: 150px;
+}
+
+.sectionSecond{
+  top: 300px;
+}
+
+.sectionHidden{
+  opacity: 0;
+  margin-left: 20px;
+}
+
+.thirdSection{
+  background-color: #E0E0E0;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.thirdSection h2{
+  font-family: "Lato", sans-serif;
+  color: rgba(55,55,55,0.7);
+  text-align: center;
+  font-size: 3em;
+  top: 2em;
+  font-weight: 200;
+}
+
+.mediaContainer{
+  height: 100px;
+  width: 360;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fb-share-button{
+  display: none;
+}
+
+.facebook{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  background-color: #3b5998;
+  border-radius: 4px;
+}
+
+.facebook i{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+}
+
+.twitter{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin-right: 20px;
+  background-color: #4099ff;
+  border-radius: 4px;
+}
+
+.twitter-share-button{
+  display: none;
+}
+
+.twitter i{
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.google{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: #D50F25;
+  border-radius: 4px;
+}
+
+.google i {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gshare{
+  opacity: 0;
+  overflow: hidden;
+  top: 55%;
+  transform: translateY(-50%, -50%);
+  position: absolute;
+  top: 50%;
+}
+
+.fourthSection{
+  width: 100%;
+  background-color: #0fa6bb;
+  margin: 0;
+}
+
+.fourthSection h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 3.5em;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cardContainer{
+  margin: 0 auto;
+  width: 95%;
+  padding-bottom: 2em;
+  opacity: 1;
+  transition: 500ms ease-in-out;
+  padding-top: 0;
+}
+
+.cardContainerHidden{
+  opacity: 0;
+  padding-top: 2em;
+}
+
+
+.person{
+  width: 70vw;
+  height: 28vw;
+  background-color: rgba(255,255,255,0.2);
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 20px;
+  box-shadow: 0px 0px 20px rgba(55,55,55,0.1);
+}
+
+.person h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  font-size: 3em;
+  color: rgb(55,55,55);
+  position: absolute;
+  right: 60px;
+}
+
+.person p{
+  position: absolute;
+  bottom: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  color: rgb(55,55,55);
+  right: 60px;
+  font-size: 2em;
+}
+
+.profile{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  lefT: 60px;
+  transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-image: url(assets/profile.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

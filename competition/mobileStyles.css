@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background-color: #EEEEEE;
+  background-color: #f6f6f6;
 }
 
 nav {
@@ -235,9 +235,8 @@ nav ul div p a {
 
 .competitionContent{
   position: relative;
-  width: 98%;
+  width: 95vw;
   background-color: white;
-  padding: 2em;
   z-index: 1;
   margin: 0 auto;
   margin-top: 810px;
@@ -245,4 +244,17 @@ nav ul div p a {
   font-weight: 200;
   font-size: 1.1em;
   color: rgb(55,55,55);
+  padding-bottom: 2em;
+}
+
+.competitionContent h2 {
+  padding: 0 2em;
+  margin-top: 2em;
+  color: #2caace;
+  font-weight: 200;
+  font-size: 2em;
+}
+
+.competitionContent p{
+  padding: 0 2em;
 }

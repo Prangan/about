@@ -76,9 +76,9 @@
     <div class="secondSection" id="secondSection">
       <div class="secondSectionContent" id="secondSectionContent">
         <h2>What is the Business and Entreneurship Competition?</h2>
-        <p class="sectionShowing sectionHidden" id="secondSectionOne">The competition is inspired by the Rice Business Plan Competition.</p>
+        <p class="sectionShowing sectionHidden sectionFirst" id="secondSectionOne">The competition is inspired by the Rice Business Plan Competition.</p>
         <br>
-        <p class="sectionShowing sectionHidden" id="secondSectionTwo">At the competition, applicants come up with a business idea, develop it, and pitch it to a panel of judges.</p>
+        <p class="sectionShowing sectionHidden sectionSecond" id="secondSectionTwo">At the competition, applicants come up with a business idea, develop it, and pitch it to a panel of judges.</p>
       </div>
     </div>
     <div class="thirdSection" id="thirdSection">
@@ -95,7 +95,7 @@
     <div class="fourthSection" id="fourthSection">
       <br>
       <h2>The Organizers</h2>
-      <div class="cardContainer" id="cardContainer">
+      <div class="cardContainer cardContainerHidden" id="cardContainer">
         <div class="person">
           <h3>Cedric</h3>
           <div class="profile cedric" id="profile"></div>
@@ -137,13 +137,6 @@
 
 </script>
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 <script>window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],
     t = window.twttr || {};
@@ -160,4 +153,11 @@
 
   return t;
 }(document, "script", "twitter-wjs"));</script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </html>
