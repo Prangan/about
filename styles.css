@@ -211,7 +211,7 @@ nav ul{
   position: relative;
   margin: 0px;
   margin-top: 60px;
-  background: linear-gradient(69deg, #4E4585, #028487, #619899, #5E6B8A, #87678A);
+  background: linear-gradient(69deg, #87678A, #5E6B8A, #619899, #028487, #4E4585);
   background-size: 1400% 1400%;
 
   -webkit-animation: AnimationName 49s ease infinite;
