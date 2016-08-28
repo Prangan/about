@@ -201,9 +201,35 @@ nav ul div p a {
   position: relative;
   margin: 0px;
   margin-top: 0px;
-  background: linear-gradient(69deg, #004c5c, #223a3f);
+  background: linear-gradient(69deg, #4E4585, #028487, #619899, #5E6B8A, #87678A);
+  background-size: 1400% 1400%;
+
+  -webkit-animation: AnimationName 49s ease infinite;
+  -moz-animation: AnimationName 49s ease infinite;
+  -o-animation: AnimationName 49s ease infinite;
+  animation: AnimationName 49s ease infinite;
 }
 
+@-webkit-keyframes AnimationName {
+    0%{background-position:88% 0%}
+    50%{background-position:13% 100%}
+    100%{background-position:88% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:88% 0%}
+    50%{background-position:13% 100%}
+    100%{background-position:88% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:88% 0%}
+    50%{background-position:13% 100%}
+    100%{background-position:88% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:88% 0%}
+    50%{background-position:13% 100%}
+    100%{background-position:88% 0%}
+}
 
 .contentContainer {
   position: absolute;
@@ -216,7 +242,7 @@ nav ul div p a {
 }
 
 .entriesText span{
-  color: #ff3366;
+  color: #FF979B;
 }
 
 .entriesText{
@@ -241,7 +267,7 @@ nav ul div p a {
 .open{
   text-align: center;
   margin-top: 1em;
-  color: #ff3366;
+  color: #FF979B;
   font-weight: 400;
   font-size: 2em;
 }
@@ -281,11 +307,11 @@ nav ul div p a {
 }
 
 .daysContainer .timeEntry{
-  color: #ff3366;
+  color: #FF726D;
 }
 
 .daysContainer .label{
-  color: #ff3366;
+  color: #FF726D;
 }
 
 .hoursContainer{
@@ -366,12 +392,16 @@ nav ul div p a {
   position: relative;
 }
 
-.secondSection h2{
+.secondSectionContent h2{
   text-align: center;
-  margin-top: 2em;
-  font-size: 2.5em;
+  margin-top: 1em;
+  font-size: 3em;
   font-weight: 200;
   margin-bottom: 3em;
+}
+
+.secondSectionContent p{
+  font-size: 2.4em;
 }
 
 .sectionShowing{

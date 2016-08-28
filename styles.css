@@ -211,13 +211,13 @@ nav ul{
   position: relative;
   margin: 0px;
   margin-top: 60px;
-  background: linear-gradient(69deg, #5E7073, #4B7184, #14506B, #3E4557, #0F3638);
+  background: linear-gradient(69deg, #4E4585, #028487, #619899, #5E6B8A, #87678A);
   background-size: 1400% 1400%;
 
-  -webkit-animation: AnimationName 59s ease infinite;
-  -moz-animation: AnimationName 59s ease infinite;
-  -o-animation: AnimationName 59s ease infinite;
-  animation: AnimationName 59s ease infinite;
+  -webkit-animation: AnimationName 49s ease infinite;
+  -moz-animation: AnimationName 49s ease infinite;
+  -o-animation: AnimationName 49s ease infinite;
+  animation: AnimationName 49s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
@@ -262,7 +262,7 @@ nav ul{
 }
 
 .entriesText span{
-  color: #ff3366;
+  color: #FF979B;
 }
 
 .BandE{
@@ -277,7 +277,7 @@ nav ul{
 .open{
   text-align: center;
   margin-top: 1em;
-  color: #ff3366;
+  color: #FF979B;
   font-weight: 400;
   font-size: 1.5em;
 }
@@ -325,11 +325,11 @@ nav ul{
 }
 
 .daysContainer .timeEntry{
-  color: #ff3366;
+  color: #FF726D;
 }
 
 .daysContainer .label{
-  color: #ff3366;
+  color: #FF726D;
 }
 
 .hoursContainer{
