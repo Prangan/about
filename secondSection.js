@@ -11,7 +11,7 @@ window.onscroll = function(){
   if (sectionScroll > 420){
     secondSectionTwo.className = "sectionShowing sectionSecond";
   }
-  if (sectionScroll > 1200){
+  if (sectionScroll > 1000){
     cardContainer.className = "cardContainer";
   }
 }
