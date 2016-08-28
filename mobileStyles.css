@@ -426,6 +426,7 @@ nav ul div p a {
 
 .fb-share-button{
   display: none;
+  opacity: 0;
 }
 
 .facebook{
