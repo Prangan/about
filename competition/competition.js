@@ -9,14 +9,12 @@ window.mobilecheck = function() {
   return check;
 };
 
-info.innerHTML = mobilecheck();
-
 window.onscroll = function(){
   windowScroll = document.body.scrollTop;
   mainLogo.style.top = ((windowScroll/8)-10) + "%";
   info.style.top = ((windowScroll/11)+65)+"%";
   schoolLogo.style.top = ((windowScroll/8)*-1) + "%";
-  if(typeof window.orientation == 'undefined'){
+  if(mobilecheck() == true){
     mainLogo.style.top = ((windowScroll/15)-20) + "%";
     info.style.top = ((windowScroll/18)+65)+"%";
     schoolLogo.style.top = ((windowScroll/22)*-1) + "%";
