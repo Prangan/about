@@ -26,8 +26,8 @@ window.onload = function(){
   info.className = "info";
   schoolLogo.className = "SevSchoolLogo";
   setTimeout(function(){
-    mainLogo.style.transition = "0ms";
-    info.style.transition = "0ms";
-    schoolLogo.style.transition = "0ms";
+    mainLogo.style.transition = "20ms";
+    info.style.transition = "20ms";
+    schoolLogo.style.transition = "20ms";
   },700);
 }
