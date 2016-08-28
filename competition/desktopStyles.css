@@ -212,6 +212,7 @@ nav ul{
   z-index: 2;
   background-color: white;
   border-top: 1px solid rgba(55,55,55,0.1);
+  box-shadow: 0px 3px 15px rgba(55,55,55,0.15);
 }
 
 .minLogo{
@@ -249,8 +250,9 @@ nav ul{
 
 .competitionContent {
   position: relative;
-  width: 80%;
-  background-color: #F5F5F5;
+  width: 75%;
+  background-color: white;
+  padding: 2em;
   z-index: 1;
   height: 1000px;
   margin: 0 auto;
@@ -276,7 +278,7 @@ nav ul{
 }
 
 .competitionContent h2 {
-  margin-top: 3em;
+  margin-top: 2em;
   color: #2caace;
   font-weight: 200;
   font-size: 2em;

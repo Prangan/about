@@ -74,10 +74,58 @@
       <div class="clockBg" id="clockBg"></div>
     </div>
     <div class="secondSection" id="secondSection">
+      <div class="secondSectionContent" id="secondSectionContent">
+        <h2>What is the Business and Entreneurship Competition?</h2>
+        <p class="sectionShowing sectionHidden" id="secondSectionOne">The competition is inspired by the Rice Business Plan Competition.</p>
+        <br>
+        <p class="sectionShowing sectionHidden" id="secondSectionTwo">At the competition, applicants come up with a business idea, develop it, and pitch it to a panel of judges.</p>
+      </div>
     </div>
+    <div class="thirdSection" id="thirdSection">
+      <br>
+      <h2>Feeling inspired? Tell people about this</h2>
+      <div class="mediaContainer">
+        <a class="facebook" id="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbesomethingsevenoaks.github.io%2Fabout%2F&amp;src=sdkpreparse"><i class="fa fa-facebook" aria-hidden="true"></i><div class="fbDarken"></div></a>
+        <div class="fb-share-button" data-href="https://besomethingsevenoaks.github.io/about/" data-layout="button" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbesomethingsevenoaks.github.io%2Fabout%2F&amp;src=sdkpreparse">Share</a></div>
+        <a class="twitter" id="twitter" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20competition%20from%20@besomething7oak"><i class="fa fa-twitter" aria-hidden="true"></i><div class="twitterDarken"></div></a>
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20competition%20from%20@besomething7oak" data-size="large" hashtags="business, entrepreneur, competition">Tweet</a>
+        <div class="google"><i class="fa fa-google-plus" aria-hidden="true"></i><div class="gshare"><div class="g-plus" data-action="share" data-annotation="none" data-height="24" data-href="https://besomethingsevenoaks.github.io/about/"></div><div class="g-plus" data-action="share" data-annotation="none" data-height="24" data-href="https://besomethingsevenoaks.github.io/about/"></div></div></div>
+      </div>
+    </div>
+    <div class="fourthSection" id="fourthSection">
+      <br>
+      <h2>The Organizers</h2>
+      <div class="cardContainer" id="cardContainer">
+        <div class="person">
+          <h3>Cedric</h3>
+          <div class="profile cedric" id="profile"></div>
+          <p>Execurive Director</p>
+        </div>
+        <div class="person">
+          <h3>Masha</h3>
+          <div class="profile masha" id="profile"></div>
+          <p>Head of Marketing</p>
+        </div>
+        <div class="person">
+          <h3>Prangan</h3>
+          <div class="profile prangan" id="profile"></div>
+          <p>Head of Strategy</p>
+        </div>
+        <div class="person">
+          <h3>Anna</h3>
+          <div class="profile anna" id="profile"></div>
+          <p>Info about Anna</p>
+        </div>
+      </div>
+    </div>
+    <div class="copyright" id="copyright"><p>Site &#169; Maxime Robeyns 2016</p></div>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
   </body>
+
   <script type="text/javascript" src="scripts.js"></script>
   <script type="text/javascript" src="firstSection.js"></script>
+  <script type="text/javascript" src="secondSection.js"></script>
+  <script src="https://use.fontawesome.com/32628074e4.js"></script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -88,4 +136,28 @@
   ga('send', 'pageview');
 
 </script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 </html>
