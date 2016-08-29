@@ -426,6 +426,18 @@ nav ul{
   .clockBg{
     background-color: rgba(255,255,255,0.1);
     position: absolute;
+    top: 305px;
+    left: 0%;
+    width: 100%;
+    height: 280px;
+    z-index: 2;
+  }
+}
+
+@media(max-width: 699px){
+  .clockBg{
+    background-color: rgba(255,255,255,0.1);
+    position: absolute;
     top: 320px;
     left: 0%;
     width: 100%;
@@ -434,10 +446,36 @@ nav ul{
   }
 }
 
-@media (max-width: 714px){
+@media (max-width: 699px){
   .youHave{
     margin-top: 0px;
   }
+}
+
+@media (max-width:1005px) and (min-width:831px){
+  .youHave{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .results{
+    margin-top: 0px;
+  }
+
+  .learnMore{
+    bottom: 80px;
+  }
+}
+
+@media (max-width: 650px){
+  .learnMore{
+    font-size: 1.3em;
+    bottom: 10px;
+  }
+
+  .firstSection{
+    height: 700px;
+  }
+
 }
 
 
@@ -665,7 +703,7 @@ nav ul{
 }
 
 .anna{
-  background-image: url(assets/anna.jpg);
+  background-image: url(assets/anna.png);
 }
 
 .copyright{
