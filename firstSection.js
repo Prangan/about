@@ -12,7 +12,7 @@ var timeContainer = document.getElementById('timeContainer');
 window.onload = function(){
   setTimeout(function(){
     timeContainer.className = "timeContainer";
-  }, 1000);
+  }, 250);
 }
 
 setInterval(function(){
